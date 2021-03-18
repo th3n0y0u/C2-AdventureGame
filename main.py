@@ -35,9 +35,9 @@ while(True):
       equipment += random.randint(250, 1000)
       attackchance = random.randint(1,2)
       if(attackchance == 2): 
-          print("The enemy has attacked you back!")
-          friendlycasualties += random.randint(100, 200)
-          enemycasualties += random.randint(1, 100) 
+        print("The enemy has attacked you back!")
+        friendlycasualties += random.randint(100, 200)
+        enemycasualties += random.randint(1, 100) 
       print("You have " + str(friendlycasualties)+ " casualties")
       print("You have " + str(equipment) + " equipment")
        
