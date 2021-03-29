@@ -1,6 +1,6 @@
 # imports
 import time, random
-
+ 
 # Variables
 warexhaustion = 1
 enemyexhaustion = 1
@@ -10,7 +10,6 @@ equipment = 10000
 
 # Introduction + Instructions
 print("You are currently in the battlefield in the Napoleonic Wars, you are currently facing the Austrians as a Frenchmen, you have 10000 men, while the Austrians has 10000 men too.")
-print("NOTICE: THIS GAME CAN BE REALLY HARD OR REALLY EASY DEPENDING ON YOUR LUCK(RNG)")
 time.sleep(2)
 print(" ")
 print("WINNING CONDITIONS")
@@ -128,7 +127,6 @@ while(True):
       print("Your equipment is low, you need to wait for your next supply train commander!")
     if(equipment <= 1 and warexhaustion == 10 and friendlycasualties == 7999 and enemycasualties == 1): 
       print("Your really bad at commanding aren't you?")
-    
 
     # Winning and Losing Statements
     if(equipment == 0 or warexhaustion == 11 or friendlycasualties == 8000):
@@ -137,7 +135,7 @@ while(True):
       "Y O U    H A V E   D I E D")
       break
     if(enemyexhaustion == 11 or enemycasualties == 8000):
-      print("You are celebrated for your crushing victory on the Austrians\n"
+      print("You are celebrated for your crushing victory on the Austrians\n" 
       " Y O U   H A V E   W O N")
       break
   else:
@@ -150,3 +148,5 @@ time.sleep(420)
 print("big nerd you have waited 7 minutes to find this")
 time.sleep(2)
 print("your bad")
+time.sleep(696969696969)
+print("Why have you waited this long")
